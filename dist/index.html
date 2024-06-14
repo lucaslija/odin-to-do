@@ -10,7 +10,9 @@
   </head>
   <body>
     <header>
-      <div id="logo">lija.list</div>
+      <div id="logo">
+        <h1>lija.list</h1>
+      </div>
       <nav>
         <div id="account">account</div>
         <div id="settings">settings</div>
@@ -20,17 +22,17 @@
       <div id="sidebar">
         <div id="sidebar-items">
           <div id="overview">
-            <h3>overview</h3>
+            <btn class="item" id="overview-btn">overview</btn>
           </div>
           <div id="unassigned">
-            <h3>unassigned</h3>
+            <btn class="item" id="unassigned-btn">unassigned</btn>
           </div>
           <div id="projects">
-            <h3>projects</h3>
+            <btn class="item" id="projects-btn">projects</btn>
           </div>
         </div>
         <div id="sidebar-buttons">
-          <button class="add-btn" id="add-project-btn">+</button>
+          <button id="add-project-btn">add project</button>
         </div>
       </div>
       <div id="tasks">
@@ -44,7 +46,9 @@
             </div>
           </div>
           <div id="task-buttons">
-            <button class="add-btn" id="add-task-btn">+</button>
+            <div class="circle-btn-container">
+              <button class="circle-btn" id="add-task-btn">&#xFF0B</button>
+            </div>
           </div>
         </div>
         <div id="completed">
@@ -54,5 +58,8 @@
         </div>
       </div>
     </main>
+    <footer>
+      <p>&copy lucas lija 2024</p>
+    </footer>
   </body>
 </html>
