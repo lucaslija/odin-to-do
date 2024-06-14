@@ -9,5 +9,50 @@
     <script src="./main.js" async defer></script>
   </head>
   <body>
+    <header>
+      <div id="logo">lija.list</div>
+      <nav>
+        <div id="account">account</div>
+        <div id="settings">settings</div>
+      </nav>
+    </header>
+    <main>
+      <div id="sidebar">
+        <div id="sidebar-items">
+          <div id="overview">
+            <h3>overview</h3>
+          </div>
+          <div id="unassigned">
+            <h3>unassigned</h3>
+          </div>
+          <div id="projects">
+            <h3>projects</h3>
+          </div>
+        </div>
+        <div id="sidebar-buttons">
+          <button class="add-btn" id="add-project-btn">+</button>
+        </div>
+      </div>
+      <div id="tasks">
+        <div id="ongoing">
+          <div id="lists">
+            <div class="section" id="today">
+              <h2 class="section-header">today</h2>
+            </div>
+            <div class="section" id="upcoming">
+              <h2 class="section-header">upcoming</h2>
+            </div>
+          </div>
+          <div id="task-buttons">
+            <button class="add-btn" id="add-task-btn">+</button>
+          </div>
+        </div>
+        <div id="completed">
+          <div class="section completed-section">
+            <h2 class="section-header">completed</h2>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
